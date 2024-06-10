@@ -1,0 +1,38 @@
+10/06/2024 14:46:16;Início da Preparação;Notificação
+10/06/2024 14:46:16;Parâmetro de Execução Gestor 2;Alerta
+10/06/2024 14:46:16;Apagando arquivos do envio anterior;Notificação
+10/06/2024 14:46:16;Arquivos do dia anterior excluídos;Notificação
+10/06/2024 14:46:16;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:46:16;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:46:16;Conexão com o banco de dados realizada;Notificação
+10/06/2024 14:46:16;Periodo Inicial:16/05/24;Notificação
+10/06/2024 14:46:16;Periodo Final:08/06/24;Notificação
+10/06/2024 14:46:27;Query: SELECT * FROM RM.PLN_PONTO_IMPAR  where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 102;Notificação
+10/06/2024 14:46:28;Query: SELECT * FROM RM.PLN_PONTO_FALTA where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 187;Notificação
+10/06/2024 14:46:30;Query: SELECT * FROM RM.PLN_PONTO_ATRASO where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 416;Notificação
+10/06/2024 14:46:32;Query: SELECT * FROM RM.PLN_PONTO_EXTRAS where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 272;Notificação
+10/06/2024 14:46:45;Query: SELECT * FROM RM.PLN_OCOR_INTERJORNADAS where databatida between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 32;Notificação
+10/06/2024 14:47:21;Query: SELECT * FROM RM.PLN_OCOR_REFEICAO where databatida between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 142;Notificação
+10/06/2024 14:47:26;Query: SELECT * FROM RM.PLN_OCOR_7DIASCONSEC where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe in ( '009','29')) Registros: 7;Notificação
+10/06/2024 14:47:29;Query: SELECT * FROM RM.PLN_3DOM_CONSECUTIVOS where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 1;Notificação
+10/06/2024 14:47:30;Query: SELECT * FROM RM.PLN_OCOR_ABONGERAL where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 344;Notificação
+10/06/2024 14:47:31;Query: SELECT * FROM RM.PLN_OCOR_HEXTRAS where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 272;Notificação
+10/06/2024 14:47:32;Término Obter Dados: 10/06/2024 14:47:32;Notificação
+10/06/2024 14:47:32;Início Formatar Excel: 10/06/2024 14:47:32;Notificação
+10/06/2024 14:47:32;Formatando a planilha: Administração RH 10/06/2024 14:47:32;Notificação
+10/06/2024 14:47:33;Gravando lista de e-Mails;Notificação
+10/06/2024 14:47:33;Concluindo lista de e-Mails;Notificação
+10/06/2024 14:47:33;Término Formatar Excel: 10/06/2024 14:47:33;Notificação
+10/06/2024 14:47:33;Enviando e-mails aos usuários;Alerta
+10/06/2024 14:47:33;Preparando o e-mail;Notificação
+10/06/2024 14:47:35;Formatando a planilha: Equipe: 9.0 10/06/2024 14:47:35;Notificação
+10/06/2024 14:47:35;Enviado e-mail para Equipe:9.0 eMail: carlos.soares@redeoba.com.br;Notificação
+10/06/2024 14:47:35;Formatando a planilha: Equipe: 29.0 10/06/2024 14:47:35;Notificação
+10/06/2024 14:47:36;Enviado e-mail para Equipe:29.0 eMail: carlos.soares@redeoba.com.br;Notificação
+10/06/2024 14:47:36;Formatando a planilha: Empresa: 37 10/06/2024 14:47:36;Notificação
+10/06/2024 14:47:37;Enviado e-mail para Empresa:37 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:47:37;Formatando a planilha: Empresa: 86 10/06/2024 14:47:37;Notificação
+10/06/2024 14:47:38;Enviado e-mail para Empresa:86 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:47:39;Formatando a planilha: Empresa: 121 10/06/2024 14:47:39;Notificação
+10/06/2024 14:47:40;Enviado e-mail para Empresa:121 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:47:40;Acabou ********************************;Notificação

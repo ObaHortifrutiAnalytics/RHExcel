@@ -1,0 +1,20 @@
+10/06/2024 14:36:15;Início da Preparação;Notificação
+10/06/2024 14:36:15;Parâmetro de Execução Gestor 2;Alerta
+10/06/2024 14:36:15;Apagando arquivos do envio anterior;Notificação
+10/06/2024 14:36:15;Arquivos do dia anterior excluídos;Notificação
+10/06/2024 14:36:15;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:36:15;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:36:15;Conexão com o banco de dados realizada;Notificação
+10/06/2024 14:36:15;Periodo Inicial:16/05/24;Notificação
+10/06/2024 14:36:15;Periodo Final:08/06/24;Notificação
+10/06/2024 14:36:16;Query: SELECT * FROM RM.PLN_OCOR_HEXTRAS where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 272;Notificação
+10/06/2024 14:36:17;Término Obter Dados: 10/06/2024 14:36:17;Notificação
+10/06/2024 14:36:17;Início Formatar Excel: 10/06/2024 14:36:17;Notificação
+10/06/2024 14:36:17;Formatando a planilha: Administração RH 10/06/2024 14:36:17;Notificação
+10/06/2024 14:36:17;Gravando lista de e-Mails;Notificação
+10/06/2024 14:36:17;Concluindo lista de e-Mails;Notificação
+10/06/2024 14:36:17;Término Formatar Excel: 10/06/2024 14:36:17;Notificação
+10/06/2024 14:36:17;Enviando e-mails aos usuários;Alerta
+10/06/2024 14:36:17;Preparando o e-mail;Notificação
+10/06/2024 14:36:17;!!!!!!!!!!!!!!!!!! Ocorreu um erro : EXCEPTION IN (C:\RHExcel\geraexcel.py, LINE 929 "fnEnviaEmails(iTipo, sDestinatario,wbNome, ExcelFileName, logFile )"): [Errno 2] No such file or directory: '2024_06_09_Apuração de Ponto.xlsx';Erro
+10/06/2024 14:36:17;Acabou ********************************;Notificação

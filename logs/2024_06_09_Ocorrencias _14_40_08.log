@@ -1,0 +1,20 @@
+10/06/2024 14:40:08;Início da Preparação;Notificação
+10/06/2024 14:40:08;Parâmetro de Execução Gestor 2;Alerta
+10/06/2024 14:40:08;Apagando arquivos do envio anterior;Notificação
+10/06/2024 14:40:08;Arquivos do dia anterior excluídos;Notificação
+10/06/2024 14:40:08;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:40:08;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:40:08;Conexão com o banco de dados realizada;Notificação
+10/06/2024 14:40:08;Periodo Inicial:16/05/24;Notificação
+10/06/2024 14:40:08;Periodo Final:08/06/24;Notificação
+10/06/2024 14:40:09;Query: SELECT * FROM RM.PLN_OCOR_HEXTRAS where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 272;Notificação
+10/06/2024 14:40:09;Término Obter Dados: 10/06/2024 14:40:09;Notificação
+10/06/2024 14:40:09;Início Formatar Excel: 10/06/2024 14:40:09;Notificação
+10/06/2024 14:40:09;Formatando a planilha: Administração RH 10/06/2024 14:40:09;Notificação
+10/06/2024 14:40:10;Gravando lista de e-Mails;Notificação
+10/06/2024 14:40:10;Concluindo lista de e-Mails;Notificação
+10/06/2024 14:40:10;Término Formatar Excel: 10/06/2024 14:40:10;Notificação
+10/06/2024 14:40:10;Enviando e-mails aos usuários;Alerta
+10/06/2024 14:40:10;Preparando o e-mail;Notificação
+10/06/2024 14:40:10;!!!!!!!!!!!!!!!!!! Ocorreu um erro : EXCEPTION IN (C:\RHExcel\geraexcel.py, LINE 930 "fnEnviaEmails(iTipo, sDestinatario,wbNome, ExcelFileName, logFile )"): 'list' object has no attribute 'len';Erro
+10/06/2024 14:40:10;Acabou ********************************;Notificação

@@ -1,0 +1,34 @@
+10/06/2024 14:28:43;Início da Preparação;Notificação
+10/06/2024 14:28:43;Parâmetro de Execução Gestor 2;Alerta
+10/06/2024 14:28:43;Apagando arquivos do envio anterior;Notificação
+10/06/2024 14:28:43;Arquivos do dia anterior excluídos;Notificação
+10/06/2024 14:28:43;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:28:43;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:28:43;Conexão com o banco de dados realizada;Notificação
+10/06/2024 14:28:43;Periodo Inicial:16/05/24;Notificação
+10/06/2024 14:28:43;Periodo Final:08/06/24;Notificação
+10/06/2024 14:28:45;Query: SELECT * FROM RM.PLN_OCOR_HEXTRAS where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 272;Notificação
+10/06/2024 14:28:45;Término Obter Dados: 10/06/2024 14:28:45;Notificação
+10/06/2024 14:28:45;Início Formatar Excel: 10/06/2024 14:28:45;Notificação
+10/06/2024 14:28:45;Formatando a planilha: Administração RH 10/06/2024 14:28:45;Notificação
+10/06/2024 14:28:45;!!!!!!!!!!!!!!!!!! Ocorreu um erro : EXCEPTION IN (C:\RHExcel\geraexcel.py, LINE 423 "fnLinhaLog(logFile, 'Valor não é data: ' + col_cell)"): can only concatenate str (not "Cell") to str;Erro
+10/06/2024 14:28:45;Gravando lista de e-Mails;Notificação
+10/06/2024 14:28:45;Concluindo lista de e-Mails;Notificação
+10/06/2024 14:28:45;Término Formatar Excel: 10/06/2024 14:28:45;Notificação
+10/06/2024 14:28:45;Enviando e-mails aos usuários;Alerta
+10/06/2024 14:28:45;Preparando o e-mail;Notificação
+10/06/2024 14:28:46;Formatando a planilha: Equipe: 9.0 10/06/2024 14:28:46;Notificação
+10/06/2024 14:28:46;!!!!!!!!!!!!!!!!!! Ocorreu um erro : EXCEPTION IN (C:\RHExcel\geraexcel.py, LINE 423 "fnLinhaLog(logFile, 'Valor não é data: ' + col_cell)"): can only concatenate str (not "Cell") to str;Erro
+10/06/2024 14:28:46;Enviado e-mail para Equipe:9.0 eMail: carlos.soares@redeoba.com.br;Notificação
+10/06/2024 14:28:46;Formatando a planilha: Equipe: 29.0 10/06/2024 14:28:46;Notificação
+10/06/2024 14:28:46;Enviado e-mail para Equipe:29.0 eMail: carlos.soares@redeoba.com.br;Notificação
+10/06/2024 14:28:46;Formatando a planilha: Empresa: 37 10/06/2024 14:28:46;Notificação
+10/06/2024 14:28:46;!!!!!!!!!!!!!!!!!! Ocorreu um erro : EXCEPTION IN (C:\RHExcel\geraexcel.py, LINE 423 "fnLinhaLog(logFile, 'Valor não é data: ' + col_cell)"): can only concatenate str (not "Cell") to str;Erro
+10/06/2024 14:28:47;Enviado e-mail para Empresa:37 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:28:47;Formatando a planilha: Empresa: 86 10/06/2024 14:28:47;Notificação
+10/06/2024 14:28:47;!!!!!!!!!!!!!!!!!! Ocorreu um erro : EXCEPTION IN (C:\RHExcel\geraexcel.py, LINE 423 "fnLinhaLog(logFile, 'Valor não é data: ' + col_cell)"): can only concatenate str (not "Cell") to str;Erro
+10/06/2024 14:28:47;Enviado e-mail para Empresa:86 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:28:47;Formatando a planilha: Empresa: 121 10/06/2024 14:28:47;Notificação
+10/06/2024 14:28:47;!!!!!!!!!!!!!!!!!! Ocorreu um erro : EXCEPTION IN (C:\RHExcel\geraexcel.py, LINE 423 "fnLinhaLog(logFile, 'Valor não é data: ' + col_cell)"): can only concatenate str (not "Cell") to str;Erro
+10/06/2024 14:28:47;Enviado e-mail para Empresa:121 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:28:47;Acabou ********************************;Notificação

@@ -1,0 +1,29 @@
+10/06/2024 14:41:10;Início da Preparação;Notificação
+10/06/2024 14:41:10;Parâmetro de Execução Gestor 2;Alerta
+10/06/2024 14:41:10;Apagando arquivos do envio anterior;Notificação
+10/06/2024 14:41:10;Arquivos do dia anterior excluídos;Notificação
+10/06/2024 14:41:10;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:41:10;Abrindo conexão com o banco de dados;Notificação
+10/06/2024 14:41:11;Conexão com o banco de dados realizada;Notificação
+10/06/2024 14:41:11;Periodo Inicial:16/05/24;Notificação
+10/06/2024 14:41:11;Periodo Final:08/06/24;Notificação
+10/06/2024 14:41:12;Query: SELECT * FROM RM.PLN_OCOR_HEXTRAS where data between to_date('16/05/24', 'dd/mm/yy') and to_date('08/06/24', 'dd/mm/yy')and codfilial in (43, 94, 97) and (codequipe is null or codequipe = '009') Registros: 272;Notificação
+10/06/2024 14:41:12;Término Obter Dados: 10/06/2024 14:41:12;Notificação
+10/06/2024 14:41:12;Início Formatar Excel: 10/06/2024 14:41:12;Notificação
+10/06/2024 14:41:12;Formatando a planilha: Administração RH 10/06/2024 14:41:12;Notificação
+10/06/2024 14:41:12;Gravando lista de e-Mails;Notificação
+10/06/2024 14:41:12;Concluindo lista de e-Mails;Notificação
+10/06/2024 14:41:12;Término Formatar Excel: 10/06/2024 14:41:12;Notificação
+10/06/2024 14:41:12;Enviando e-mails aos usuários;Alerta
+10/06/2024 14:41:12;Preparando o e-mail;Notificação
+10/06/2024 14:41:13;Formatando a planilha: Equipe: 9.0 10/06/2024 14:41:13;Notificação
+10/06/2024 14:41:14;Enviado e-mail para Equipe:9.0 eMail: carlos.soares@redeoba.com.br;Notificação
+10/06/2024 14:41:14;Formatando a planilha: Equipe: 29.0 10/06/2024 14:41:14;Notificação
+10/06/2024 14:41:14;Enviado e-mail para Equipe:29.0 eMail: carlos.soares@redeoba.com.br;Notificação
+10/06/2024 14:41:14;Formatando a planilha: Empresa: 37 10/06/2024 14:41:14;Notificação
+10/06/2024 14:41:14;Enviado e-mail para Empresa:37 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:41:14;Formatando a planilha: Empresa: 86 10/06/2024 14:41:14;Notificação
+10/06/2024 14:41:15;Enviado e-mail para Empresa:86 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:41:15;Formatando a planilha: Empresa: 121 10/06/2024 14:41:15;Notificação
+10/06/2024 14:41:16;Enviado e-mail para Empresa:121 eMail: carlosale139@hotmail.com;Notificação
+10/06/2024 14:41:16;Acabou ********************************;Notificação
